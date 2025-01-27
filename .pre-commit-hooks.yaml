@@ -2,5 +2,5 @@
   name: helm-version-bump
   description: "Forces you to bump your Helm chart versions"
   entry: bash check_helm_version.sh
-  language: system
+  language: script
   files: ^charts/
