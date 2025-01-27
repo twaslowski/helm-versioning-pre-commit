@@ -1,0 +1,5 @@
+repos:
+  - repo: https://github.com/twaslowski/helm-versioning-pre-commit
+    rev: v0.0.4
+    hooks:
+      - id: helm-version-bump
