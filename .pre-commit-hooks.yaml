@@ -1,6 +1,6 @@
 - id: helm-version-bump
   name: helm-version-bump
   description: "Forces you to bump your Helm chart versions"
-  entry: bash check_helm_version.sh
+  entry: check_helm_version.sh
   language: script
   files: ^charts/
